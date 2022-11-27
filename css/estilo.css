@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-weight: 700;
+    text-shadow: 7px 6px 20px rgba(255, 255, 255, 0.5);
+    color: #FFFFFF;
+}
+
+.slider {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 20s infinite alternate ease-in-out;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0;
+    }
+
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+
+    100% {
+        margin-left: -300%;
+    }
+}
+
+.nav {
+    background-color: #0B8F8D;
+    padding: 28px;
+    text-align: left;
+    width: 100vw;
+}
+
+.nav__ul {
+    padding: 0vh;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 0;
+}
+
+.nav__li a {
+    text-decoration: none;
+    color: #FFFEF7;
+    font-size: 22px;
+    font-weight: 300;
+    margin-right: 40px;
+    line-height: 1;
+}
+
+.nav__li i {
+    color: #FFFEF7;
+    font-size: 24px;
+    margin-right: 8px;
+}
+
+.nav__li:hover>a {
+    color: #003340;
+    transition: .8s;
+}
+
+.nav__li:hover>i {
+    color: #003340;
+    transition: 1.2s;
+}
+
+body {
+    background-color: #00120A;
+    position: relative;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.f1-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    Display: Flex;
+    Flex-direction: row;
+    Align-items: Center;
+    position: relative;
+}
+
+.logo {
+    width: 480px;
+    height: 240px;
+}
+
+.logo-origin {
+    width: 480px;
+    height: 360px;
+}
+
+.f1-text {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 16px;
+    Width: 34vw;
+    height: 14vh;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    left: 200px;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+.tweet-f1{
+position: relative;
+left: 60vh;
+margin: 25px;
+}
+
+.f1-origin {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 16px;
+    Width: 34vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    left: 200px;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+
+footer {
+    background-color: #015958;
+    padding: 12px;
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+}
+hr {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: 500;
+    color: #FFFEF7;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+h3:hover {
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
+    transition: .5s;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-container div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container i {
+    color: #FFFEF7;
+    font-size: 25px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.footer-container :hover>i {
+    background-color: #023535;
+    transition: .8s;
+    border-radius: 50px;
+}
+
+.footer-container a {
+    color: #FFFEF7;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.text-copy {
+    color: #FFFEF7;
+    font-weight: 300;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.span-text {
+    height: 20vh;
+    width: 42vh;
+    color: #FFFEF7;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #002E1B;
+    margin: 120px 250px;
+    min-width: 380px;
+    border-radius: 10px;
+}
+.title-contacto {
+    font-weight: 500;
+    color: #FFFEF7;
+    font-size: 62px;
+    text-align: center;
+}
+.form {
+    min-width: 350px;
+    flex: 1;
+    text-align: center;
+    margin: 35px;
+}
+.text-email {
+    display: inline-flex;
+    position: relative;
+    right: 35px;
+}
+
+.tel-text {
+    display: inline-flex;
+    position: relative;
+    right: 35px;
+}
+
+.form textarea {
+    min-height: 130px;
+    max-width: 50vw;
+    resize: none;
+}
+
+.form-input {
+    border: none;
+    border-radius: 5px;
+    padding: 24px;
+    color: #FFFEF7;
+    margin: 30px 55px;
+    outline: none;
+    width: 96%;
+    text-align: left;
+    font-size: 16px;
+    background-color: #003821;
+    border: solid;
+    border-color: #01FEBF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-input::placeholder {
+    color: #FFFEF7;
+}
+
+.form-submit {
+    border: solid;
+    border-color: #01FEBF;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    width: 30%;
+    font-size: 16px;
+    color: #FFFEF7;
+    background-color: #004736;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-submit:hover {
+    background-color: #00382B;
+    transition: 0.8s;
+}
+.h1-5 {
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+}
+
+.calendario-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    Display: Flex;
+    Align-items: Center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.calendario {
+    width: 700px;
+    height: 880px;
+    border-radius: 8px;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 700;
+    padding: 50px;
+    color: #FFFEF7;
+    text-shadow: 7px 6px 20px rgba(255, 255, 255, 0.5);
+}
+
+.text-calendar {
+    margin: 25px;
+}
+
+.text-calendar p {
+    text-align: center;
+    color: #FFFEF7;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    border-radius: 25px;
+    Width: 35vw;
+    height: 14vh;
+    padding: 5px;
+}
+
+.campeonato-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    Display: Flex;
+    Align-items: Center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.campeonato {
+    width: 700px;
+    height: 880px;
+    border-radius: 8px;
+}
+
+.text-campeonato {
+    margin: 25px;
+}
+.text-campeonato p {
+    text-align: center;
+    color: #FFFEF7;
+    font-size: 18px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    border-radius: 25px;
+    Width: 35vw;
+    height: 16vh;
+    padding: 10px;
+}
+.menu-id {
+    display: inline-flex;
+    background-color: #0A7876;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    z-index: 1;
+}
+.menu-id a {
+    color: #FFFEF7;
+    font-size: 22px;
+    font-weight: 300;
+    margin-right: 50px;
+}
+.menu-id a:hover {
+    color: #003340;
+    transition: .8s;
+    cursor: pointer;
+}
+.car-title{
+    font-size: 62px;
+    font-weight: 700;
+    padding: 30px;
+    color: #FFFEF7;
+    text-align: left;
+}
+.cars {
+    Display: Flex;
+    Flex-direction: row;
+    Align-items: Center;
+    position: relative;
+}
+.auto{
+    height:720px;
+    width: 1120px;
+    margin: 25px;
+    border-radius: 30px;
+}
+.text-car {
+    border-radius: 25px;
+    box-shadow: 0px 0px 30px -4px #0FC2C0;
+    padding: 16px;
+    Width: 36vw;
+    height: 20vh;
+    text-align: center;
+    position: relative;
+    font-size: 23px;
+    left:5px;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+.caja{
+	border: solid black 0px;
+}
+.caja-titulo {
+		border: solid black 0px;
+		grid-column: 2/4;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+	}
+.grid-equipo{
+	display: grid;
+	border: black solid 0px;
+	height: 78vh;
+	width: 100vw;
+	grid-template-columns: 14vw 33vw 33vw 14vw;
+	grid-template-rows: 36vh 36vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilotos-container {
+    margin-left: 20vh;
+    margin-right: 20vh;
+    Display: Flex;
+    Align-items: Center;
+    position: relative;
+    flex-direction: column;
+}
+.logo-equipo {
+    width: 190px;
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+    right: 4px;
+}
+.logo-redbull {
+    width: 600px;
+    height: 420px;
+}
+.logo-mclaren {
+    width: 600px;
+    height: 420px;
+}
+.group-piloto {
+    Display: Flex;
+    Flex-direction: row;
+    align-items: center;
+    margin: 20px -60px;
+}
+.img-piloto {
+    margin: 25px;
+    width: 200px;
+    height: 190px;
+}
+.text-piloto {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -3px #0FC2C0;
+    padding: 14px;
+    Width: 30vw;
+    height: 14vh;
+    text-align: center;
+    position: relative;
+    font-size: 18px;
+    left: 30px;
+    font-weight: 500;
+    color: #FFFEF7;
+}
