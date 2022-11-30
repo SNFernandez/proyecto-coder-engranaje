@@ -12,7 +12,6 @@ h1 {
     font-size: 50px;
     padding-top: 50px;
     font-weight: 700;
-    text-shadow: 7px 6px 20px rgba(255, 255, 255, 0.5);
     color: #FFFFFF;
 }
 .nav__responsive-ul {
@@ -653,9 +652,111 @@ h3 {
 
 .nav__li-responsive i {
     color: #FFFEF7;
-	text-decoration: none;
 	font-size: 32px;
 	text-align: center;
     margin: 16px;
+    position: relative;
+    right: 0px;
+} 
+.nav__responsive-button-container:active > .nav__li-responsive i {
+    transition-duration: .4s;
+    position: relative;
+    left: 400px;
 }
+h1 {
+text-align: center;
+font-size: 50px;
+padding-top: 50px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.slider {
+    width: 440px;
+    height: auto;
+    margin: 60px auto 0;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: slide 14s infinite alternate ease-in-out;
+}
+
+.slider li {
+    width: 50%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+    border-radius: 6px;
+}
+.f1-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    Display: Flex;
+    flex-direction: column;
+    Align-items: Center;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 9vh;
+}
+
+.logo-origin {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 9vh;
+}
+
+.f1-text {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 12px;
+    Width: 72vw;
+    height: 14vh;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    left: 9vh;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+.tweet-f1{
+position: relative;
+left: 20vh;
+margin: 25px;
+}
+
+.f1-origin {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 12px;
+    Width: 72vw;
+    height: 17vh;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    left: 9vh;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+.f1-article {
+    position: relative;
+    right: 80px;
+}
+.tweet-f1{
+    position: relative;
+    left: 5vh;
+    margin: 40px;
+    width: 35vh;
+    }
 }
