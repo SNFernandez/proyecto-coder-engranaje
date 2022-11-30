@@ -658,9 +658,4 @@ h3 {
 	text-align: center;
     margin: 16px;
 }
-.nav__responsive-button-container:hover > .nav__li-responsive i {
-color: #490ed2;
-transition-duration: .4s;
-}
-
 }
