@@ -360,7 +360,6 @@ h3:hover {
     font-weight: 700;
     padding: 50px;
     color: #FFFEF7;
-    text-shadow: 7px 6px 20px rgba(255, 255, 255, 0.5);
 }
 
 .text-calendar {
@@ -759,4 +758,63 @@ margin: 25px;
     margin: 40px;
     width: 35vh;
     }
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    color: #FFFEF7;
+    position: relative;
+    width: 45vh;
+    text-align: center;
+}
+.campeonato {
+    width: 410px;
+    height: 480px;
+    border-radius: 8px;
+}
+.text-campeonato {
+    margin: 40px;
+}
+.text-campeonato p {
+    text-align: center;
+    color: #FFFEF7;
+    font-size: 16px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    border-radius: 25px;
+    Width: 75vw;
+    height: 24vh;
+    padding: 10px;
+}
+.calendario-container {
+    margin-left: 25vh;
+    margin-right: 25vh;
+    Display: Flex;
+    Align-items: Center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    right: 6vh;
+}
+
+.calendario {
+    width: 410px;
+    height: 480px;
+    border-radius: 8px;
+}
+.text-calendar {
+    margin: 15px;
+}
+
+.text-calendar p {
+    text-align: center;
+    color: #FFFEF7;
+    font-size: 16px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    border-radius: 25px;
+    Width: 75vw;
+    height: 22vh;
+    padding: 10px;
 }
