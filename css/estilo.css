@@ -818,3 +818,74 @@ margin: 25px;
     height: 22vh;
     padding: 10px;
 }
+.menu-id {
+    display: inline-flex;
+    background-color: #0A7876;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+    z-index: 1;
+}
+.menu-id a {
+    color: #FFFEF7;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 4px;
+}
+
+.logo-equipo {
+    width: 100px;
+    height: 105px;
+    margin-top: 10px;
+    position: relative;
+    right: 4px;
+}
+.logo-redbull {
+    width: 300px;
+    height: 250px;
+}
+.logo-mclaren {
+    width: 300px;
+    height: 250px;
+}
+.img-piloto {
+    width: 85px;
+    height: 85px;
+    position: relative;
+    right: 36px;
+}
+.text-piloto {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px -2px #0FC2C0;
+    padding: 14px;
+    Width: 27vw;
+    height: 34vh;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    left: 14px;
+    font-weight: 500;
+    color: #FFFEF7;
+}
+
+.auto{
+    height:160px;
+    width: 260px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.text-car {
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px -4px #0FC2C0;
+    padding: 16px;
+    Width: 34vw;
+    height: 26vh;
+    text-align: center;
+    position: relative;
+    font-size: 11px;
+    left:5px;
+    font-weight: 500;
+    color: #FFFEF7;
+    margin: 20px;
+}
