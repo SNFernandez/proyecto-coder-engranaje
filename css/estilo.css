@@ -528,7 +528,7 @@ h3:hover {
     color: #FFFEF7;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 490px) {
 .nav__ul {
     display: none;
 }
@@ -681,7 +681,7 @@ color: #FFFFFF;
     padding: 0;
     width: 400%;
 
-    animation: slide 14s infinite alternate ease-in-out;
+    animation: slide 13s infinite alternate ease-in-out;
 }
 
 .slider li {
@@ -888,4 +888,11 @@ margin: 25px;
     font-weight: 500;
     color: #FFFEF7;
     margin: 20px;
+}
+.car-title{
+    font-size: 42px;
+    font-weight: 700;
+    padding: 30px;
+    color: #FFFEF7;
+    text-align: center;
 }
