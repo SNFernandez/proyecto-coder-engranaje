@@ -91,7 +91,6 @@ h1 {
     display: inline-block;
     padding: 0;
 }
-
 .nav__li a {
     text-decoration: none;
     color: #FFFEF7;
@@ -645,22 +644,21 @@ h3 {
 .nav__li-responsive {
     display: inline-flex;
     position: relative;
-    right: 50px;
+    right: 12px;
     bottom: 5px;
 }
 
 .nav__li-responsive i {
     color: #FFFEF7;
-	font-size: 32px;
+	font-size: 26px;
 	text-align: center;
     margin: 16px;
     position: relative;
     right: 0px;
 } 
-.nav__responsive-button-container:active > .nav__li-responsive i {
-    transition-duration: .4s;
-    position: relative;
-    left: 400px;
+.nav__responsive-ul > .nav__li-responsive{
+color: crimson;
+transition-duration: .2s;
 }
 h1 {
 text-align: center;
