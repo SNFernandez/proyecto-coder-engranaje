@@ -154,10 +154,11 @@ body {
     left: 200px;
     font-weight: 500;
     color: #FFFEF7;
+    justify-content: center;
 }
 .tweet-f1{
 position: relative;
-left: 60vh;
+left: 50vh;
 margin: 25px;
 }
 
@@ -320,7 +321,7 @@ h3:hover {
     border-left: none;
     border-right: none;
     padding: 15px;
-    width: 30%;
+    width: 35%;
     font-size: 16px;
     color: #FFFEF7;
     background-color: #004736;
@@ -357,8 +358,9 @@ h3:hover {
 .title{
     font-size: 72px;
     font-weight: 700;
-    padding: 50px;
+    padding: 0px;
     color: #FFFEF7;
+    margin: 20px 0px;
 }
 
 .text-calendar {
@@ -372,13 +374,12 @@ h3:hover {
     box-shadow: 0px 0px 20px -4px #0FC2C0;
     border-radius: 25px;
     Width: 35vw;
-    height: 14vh;
-    padding: 5px;
+    height: auto;
+    padding: 10px;
 }
-
 .campeonato-container {
-    margin-left: 25vh;
-    margin-right: 25vh;
+    margin-left: 25%;
+    margin-right: 25%;
     Display: Flex;
     Align-items: Center;
     position: relative;
@@ -399,11 +400,11 @@ h3:hover {
 .text-campeonato p {
     text-align: center;
     color: #FFFEF7;
-    font-size: 18px;
+    font-size: 16px;
     box-shadow: 0px 0px 20px -4px #0FC2C0;
     border-radius: 25px;
     Width: 35vw;
-    height: 16vh;
+    height: auto;
     padding: 10px;
 }
 .menu-id {
@@ -471,7 +472,7 @@ h3:hover {
 .grid-equipo{
 	display: grid;
 	border: black solid 0px;
-	height: 78vh;
+	height: 80vh;
 	width: 100vw;
 	grid-template-columns: 14vw 33vw 33vw 14vw;
 	grid-template-rows: 36vh 36vh;
@@ -509,7 +510,6 @@ h3:hover {
     margin: 20px -60px;
 }
 .img-piloto {
-    margin: 25px;
     width: 200px;
     height: 190px;
 }
@@ -533,18 +533,21 @@ h3:hover {
 }
 .flex-container {
 display: flex;
-margin: 40px 35px;
+margin: 20px 5px;
+position: relative;
+width: 290px;
+height: 450px;
 }
 .form-input {
     border: none;
     border-radius: 5px;
-    padding: 24px;
+    padding: 18px;
     color: #FFFEF7;
-    margin: 20px 50px;
+    margin: 20px 60px;
     outline: none;
-    width: 94%;
+    width: 70%;
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     background-color: #003821;
     border: solid;
     border-color: #01FEBF;
@@ -563,35 +566,36 @@ footer {
 h3 {
     font-weight: 500;
     color: #FFFEF7;
-    font-size: 16px;
+    font-size: 11px;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 2px;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding: 0px;
 }
 .form textarea {
-    min-height: 140px;
+    min-height: 14vw;
     max-width: 55vw;
     resize: none;
 }
 .span-text {
-    height: 10vh;
-    width: 18vh;
+    height: 14vh;
+    width: 12vh;
     color: #FFFEF7;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 10px;
     text-align: justify;
     margin-top: 5px;
+    margin-left: 4px;
 }
 .footer-container i {
     color: #FFFEF7;
-    font-size: 16px;
+    font-size: 12px;
     padding: 3px;
-    margin: 2px;
+    margin: 0px;
 }
 .footer-container a {
     color: #FFFEF7;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 300;
 }
 .text-copy {
@@ -609,22 +613,21 @@ h3 {
     border-left: none;
     border-right: none;
     padding: 14px;
-    width: 50%;
-    font-size: 16px;
+    width: 20%;
+    font-size: 14px;
     color: #FFFEF7;
     background-color: #004736;
     border-radius: 5px;
-    cursor: pointer;
 }
 .title-contacto {
     font-weight: 500;
     color: #FFFEF7;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
 }
 .nav {
     background-color: #0B8F8D;
-    padding: 20px;
+    padding: 15px;
     text-align: right;
     width: 100vw;
 }
@@ -636,27 +639,26 @@ h3 {
 }
 .nav__responsive-button-container{
     position: relative;
-    left: 380px;
+    left: 92%;
 }
 .nav__responsive-button-container i {
-    font-size: 40px;
+    font-size: 36px;
 }
 .nav__li-responsive {
     display: inline-flex;
     position: relative;
-    right: 12px;
-    bottom: 5px;
+    right: 5%;
+    bottom: 0px;
 }
 
 .nav__li-responsive i {
     color: #FFFEF7;
 	font-size: 26px;
 	text-align: center;
-    margin: 16px;
+    margin: 10px;
     position: relative;
-    right: 0px;
 } 
-.nav__responsive-ul > .nav__li-responsive{
+.nav__responsive-button:active .nav__li-responsive i {
 color: crimson;
 transition-duration: .2s;
 }
@@ -667,8 +669,14 @@ padding-top: 50px;
 font-weight: 700;
 color: #FFFFFF;
 }
+.cars {
+    Display: Flex;
+    flex-direction: column;
+    Align-items: Center;
+    position: relative;
+}
 .slider {
-    width: 440px;
+    width: 310px;
     height: auto;
     margin: 60px auto 0;
     overflow: hidden;
@@ -704,14 +712,14 @@ color: #FFFFFF;
     position: relative;
     width: 240px;
     height: 180px;
-    left: 9vh;
+    left: 0vh;
 }
 
 .logo-origin {
     position: relative;
     width: 240px;
     height: 180px;
-    left: 9vh;
+    left: 0vh;
 }
 
 .f1-text {
@@ -719,57 +727,58 @@ color: #FFFFFF;
     box-shadow: 0px 0px 20px -4px #0FC2C0;
     padding: 12px;
     Width: 72vw;
-    height: 14vh;
+    height: 20vh;
     text-align: center;
     position: relative;
-    font-size: 12px;
-    left: 9vh;
+    font-size: 13px;
+    left: 0vh;
     font-weight: 500;
     color: #FFFEF7;
 }
 .tweet-f1{
 position: relative;
-left: 20vh;
-margin: 25px;
+left: 20%;
+margin: 10px;
 }
 
 .f1-origin {
     border-radius: 25px;
     box-shadow: 0px 0px 20px -4px #0FC2C0;
-    padding: 12px;
+    padding: 14px;
     Width: 72vw;
-    height: 17vh;
+    height: 26vh;
     text-align: center;
     position: relative;
     font-size: 12px;
-    left: 9vh;
+    left: 0vh;
     font-weight: 500;
     color: #FFFEF7;
 }
 .f1-article {
     position: relative;
-    right: 80px;
+    align-items: center;
+    justify-content: center;
+    right: 15%;
 }
 .tweet-f1{
     position: relative;
-    left: 5vh;
-    margin: 40px;
-    width: 35vh;
+    left: 0%;
+    margin: 10px;
+    margin-top: 15px;
+    width: 0vh;
     }
-}
-
 .title{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
-    padding: 20px;
+    padding: 20px 0px;
     color: #FFFEF7;
     position: relative;
     width: 45vh;
     text-align: center;
 }
 .campeonato {
-    width: 410px;
-    height: 480px;
+    width: 310px;
+    height: 460px;
     border-radius: 8px;
 }
 .text-campeonato {
@@ -781,25 +790,25 @@ margin: 25px;
     font-size: 16px;
     box-shadow: 0px 0px 20px -4px #0FC2C0;
     border-radius: 25px;
-    Width: 75vw;
-    height: 24vh;
+    Width: 80vw;
+    height: auto;
     padding: 10px;
 }
 .calendario-container {
-    margin-left: 25vh;
-    margin-right: 25vh;
+    margin-left: 25%;
+    margin-right: 25%;
     Display: Flex;
     Align-items: Center;
     position: relative;
     justify-content: center;
     flex-direction: column;
     padding: 80px;
-    right: 6vh;
+    right: 0vh;
 }
 
 .calendario {
-    width: 410px;
-    height: 480px;
+    width: 310px;
+    height: 460px;
     border-radius: 8px;
 }
 .text-calendar {
@@ -812,9 +821,9 @@ margin: 25px;
     font-size: 16px;
     box-shadow: 0px 0px 20px -4px #0FC2C0;
     border-radius: 25px;
-    Width: 75vw;
-    height: 22vh;
-    padding: 10px;
+    Width: 80vw;
+    height: auto;
+    padding: 15px;
 }
 .menu-id {
     display: inline-flex;
@@ -822,14 +831,14 @@ margin: 25px;
     width: 100vw;
     justify-content: center;
     align-items: center;
-    padding: 5px 0px;
+    padding: 2px 0px;
     z-index: 1;
 }
 .menu-id a {
     color: #FFFEF7;
-    font-size: 10px;
+    font-size: 7px;
     font-weight: 300;
-    margin: 4px;
+    margin: 2px;
 }
 
 .logo-equipo {
@@ -848,21 +857,21 @@ margin: 25px;
     height: 250px;
 }
 .img-piloto {
-    width: 85px;
-    height: 85px;
+    width: 70px;
+    height: 65px;
     position: relative;
-    right: 36px;
+    right: 15px;
 }
 .text-piloto {
     border-radius: 15px;
-    box-shadow: 0px 0px 10px -2px #0FC2C0;
-    padding: 14px;
-    Width: 27vw;
-    height: 34vh;
+    box-shadow: 0px 0px 9px -3px #0FC2C0;
+    padding: 8px;
+    Width: 26vw;
+    height: auto;
     text-align: center;
     position: relative;
-    font-size: 12px;
-    left: 14px;
+    font-size: 10px;
+    left: 11px;
     font-weight: 500;
     color: #FFFEF7;
 }
@@ -877,8 +886,8 @@ margin: 25px;
     border-radius: 25px;
     box-shadow: 0px 0px 15px -4px #0FC2C0;
     padding: 16px;
-    Width: 34vw;
-    height: 26vh;
+    Width: 65vw;
+    height: auto;
     text-align: center;
     position: relative;
     font-size: 11px;
@@ -893,4 +902,5 @@ margin: 25px;
     padding: 30px;
     color: #FFFEF7;
     text-align: center;
+}
 }
