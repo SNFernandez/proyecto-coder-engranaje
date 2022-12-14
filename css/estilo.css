@@ -644,6 +644,9 @@ h3 {
     color: #FFFEF7;
     font-size: 36px;
     text-align: center;
+    width: 19.5rem;
+    position: relative;
+    left: 20px;
 }
 .nav {
     background-color: #0B8F8D;
@@ -667,15 +670,15 @@ h3 {
 .nav__li-responsive {
     display: inline-flex;
     position: relative;
-    right: 5%;
+    right: 6%;
     bottom: 0px;
 }
 
 .nav__li-responsive i {
     color: #FFFEF7;
-	font-size: 26px;
+	font-size: 24px;
 	text-align: center;
-    margin: 10px;
+    margin: 12px;
     position: relative;
 } 
 .nav__responsive-button:active .nav__li-responsive i {
@@ -793,7 +796,7 @@ margin: 10px;
     padding: 20px 0px;
     color: #FFFEF7;
     position: relative;
-    width: 45vh;
+    width: 35vh;
     text-align: center;
 }
 .campeonato {
