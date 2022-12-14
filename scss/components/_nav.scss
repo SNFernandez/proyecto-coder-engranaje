@@ -1,0 +1,39 @@
+.nav__responsive-ul {
+	display: none;
+}
+.nav {
+	background-color: $background-color_1;
+	padding: 28px;
+	text-align: left;
+	width: 100vw;
+}
+.nav__ul {
+	padding: 0vh;
+}
+.nav__li {
+	display: inline-block;
+	padding: 0;
+	a {
+		text-decoration: none;
+		color: $color_2;
+		font-size: 22px;
+		font-weight: 300;
+		margin-right: 40px;
+		line-height: 1;
+	}
+	i {
+		color: $color_2;
+		font-size: 24px;
+		margin-right: 8px;
+	}
+	&:hover {
+		>a {
+			color: $color_3;
+			transition: .8s;
+		}
+		>i {
+			color: $color_3;
+			transition: 1.2s;
+		}
+	}
+}
