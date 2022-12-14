@@ -1,0 +1,80 @@
+.h1-5 {
+	visibility: hidden;
+	position: absolute;
+	bottom: 100%;
+}
+.flex-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: $background-color_5;
+	margin: 120px 250px;
+	min-width: 290px;
+	border-radius: 10px;
+}
+.title-contacto {
+	font-weight: 500;
+	color: $color_2;
+	font-size: 62px;
+	text-align: center;
+}
+.form {
+	min-width: 350px;
+	flex: 1;
+	text-align: center;
+	margin: 35px;
+	textarea {
+		min-height: 100px;
+		max-width: 26vw;
+		resize: none;
+	}
+}
+.text-email {
+	display: inline-flex;
+	position: relative;
+	right: 35px;
+}
+.tel-text {
+	display: inline-flex;
+	position: relative;
+	right: 35px;
+}
+.form-input {
+	border: none;
+	border-radius: 5px;
+	padding: 24px;
+	color: $color_2;
+	margin: 30px 55px;
+	outline: none;
+	width: 96%;
+	text-align: left;
+	font-size: 16px;
+	background-color: $background-color_6;
+	border: solid;
+	border-color: $border-color_1;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	&::placeholder {
+		color: $color_2;
+	}
+}
+.form-submit {
+	border: solid;
+	border-color: $border-color_1;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 15px;
+	width: 35%;
+	font-size: 16px;
+	color: $color_2;
+	background-color: $background-color_7;
+	border-radius: 5px;
+	cursor: pointer;
+	&:hover {
+		background-color: $background-color_8;
+		transition: 0.8s;
+	}
+}

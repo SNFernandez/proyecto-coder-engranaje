@@ -1,0 +1,20 @@
+.menu-id {
+	display: inline-flex;
+	background-color: $background-color_9;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 0px;
+	z-index: 1;
+	a {
+		color: $color_2;
+		font-size: 22px;
+		font-weight: 300;
+		margin-right: 50px;
+		&:hover {
+			color: $color_3;
+			transition: .8s;
+			cursor: pointer;
+		}
+	}
+}

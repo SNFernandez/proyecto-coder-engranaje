@@ -1,0 +1,71 @@
+.h1-5 {
+	visibility: hidden;
+	position: absolute;
+	bottom: 100%;
+}
+.caja {
+	border: solid black 0px;
+}
+.caja-titulo {
+	border: solid black 0px;
+	grid-column: 2/4;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+.grid-equipo {
+	display: grid;
+	border: black solid 0px;
+	height: 80vh;
+	width: 100vw;
+	grid-template-columns: 14vw 33vw 33vw 14vw;
+	grid-template-rows: 36vh 36vh;
+	justify-content: center;
+	align-items: center;
+}
+.pilotos-container {
+	margin-left: 20vh;
+	margin-right: 20vh;
+	display: Flex;
+	align-items: Center;
+	position: relative;
+	flex-direction: column;
+}
+.logo-equipo {
+	width: 190px;
+	height: 200px;
+	margin-top: 10px;
+	position: relative;
+	right: 4px;
+}
+.logo-redbull {
+	width: 600px;
+	height: 420px;
+}
+.logo-mclaren {
+	width: 600px;
+	height: 420px;
+}
+.group-piloto {
+	display: Flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 20px -60px;
+}
+.img-piloto {
+	width: 200px;
+	height: 190px;
+}
+.text-piloto {
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px -3px #0FC2C0;
+	padding: 14px;
+	width: 30vw;
+	height: 14vh;
+	text-align: center;
+	position: relative;
+	font-size: 18px;
+	left: 30px;
+	font-weight: 500;
+	color: $color_2;
+}
