@@ -259,7 +259,7 @@ h3:hover {
     justify-content: center;
     background-color: #002E1B;
     margin: 120px 250px;
-    min-width: 380px;
+    min-width: 300px;
     border-radius: 10px;
 }
 .title-contacto {
@@ -287,8 +287,8 @@ h3:hover {
 }
 
 .form textarea {
-    min-height: 130px;
-    max-width: 50vw;
+    min-height: 100px;
+    max-width: 26vw;
     resize: none;
 }
 
@@ -533,19 +533,18 @@ h3:hover {
 }
 .flex-container {
 display: flex;
-margin: 20px 5px;
+margin: 40px 5px;
 position: relative;
-width: 290px;
-height: 450px;
+height: 40em;
 }
 .form-input {
     border: none;
     border-radius: 5px;
     padding: 18px;
     color: #FFFEF7;
-    margin: 20px 60px;
+    margin: 15px 75px;
     outline: none;
-    width: 70%;
+    width: 75%;
     text-align: left;
     font-size: 12px;
     background-color: #003821;
@@ -554,6 +553,26 @@ height: 450px;
     border-top: none;
     border-left: none;
     border-right: none;
+}
+.text-email {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.tel-text {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    min-width: 350px;
+    flex: 1;
+    text-align: center;
+    width: 100em;
 }
 footer {
     background-color: #015958;
