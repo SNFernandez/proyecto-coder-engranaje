@@ -259,7 +259,7 @@ h3:hover {
     justify-content: center;
     background-color: #002E1B;
     margin: 120px 250px;
-    min-width: 300px;
+    min-width: 290px;
     border-radius: 10px;
 }
 .title-contacto {
@@ -533,9 +533,10 @@ h3:hover {
 }
 .flex-container {
 display: flex;
-margin: 40px 5px;
+margin: 40px 8px;
 position: relative;
 height: 40em;
+width: 300;
 }
 .form-input {
     border: none;
