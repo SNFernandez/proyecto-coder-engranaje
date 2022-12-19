@@ -1,0 +1,15 @@
+.menu-id {
+    display: inline-flex;
+    background-color: $background-color_9;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 2px 0px;
+    z-index: 1;
+    a {
+        color: $color_2;
+        font-size: 7px;
+        font-weight: 300;
+        margin: 2px;
+    }
+}

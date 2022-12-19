@@ -1,0 +1,70 @@
+footer {
+    background-color: $background-color_3;
+    padding: 10px;
+    width: 100vw;
+    position: relative;
+    bottom: 0;
+    z-index: 1;
+}
+h3 {
+    font-weight: 500;
+    color: $color_2;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+    padding: 0px;
+}
+.span-text {
+    height: 14vh;
+    width: 12vh;
+    color: $color_2;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: justify;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+.footer-container {
+    i {
+        color: $color_2;
+        font-size: 12px;
+        padding: 3px;
+        margin: 0px;
+    }
+    a {
+        color: $color_2;
+        font-size: 10px;
+        font-weight: 300;
+    }
+}
+.text-copy {
+    color: $color_2;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form-submit {
+    border: solid;
+    border-color: $border-color_1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 14px;
+    width: 20%;
+    font-size: 14px;
+    color: $color_2;
+    background-color: $background-color_7;
+    border-radius: 5px;
+}
+.title-contacto {
+    font-weight: 500;
+    color: $color_2;
+    font-size: 36px;
+    text-align: center;
+    width: 19.5rem;
+    position: relative;
+    left: 20px;
+}

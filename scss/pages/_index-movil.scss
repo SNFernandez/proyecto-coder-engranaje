@@ -1,0 +1,58 @@
+.f1-container {
+    display: Flex;
+    flex-direction: column;
+    align-items: Center;
+    justify-content: center;
+    position: relative;
+}
+.logo {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 0vh;
+}
+.logo-origin {
+    position: relative;
+    width: 240px;
+    height: 180px;
+    left: 0vh;
+}
+.f1-text {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 12px;
+    width: 72vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    left: 0vh;
+    font-weight: 500;
+    color: $color_2;
+}
+.tweet-f1 {
+    position: relative;
+    left: 25%;
+    margin: 10px;
+    position: relative;
+    left: 0%;
+    margin: 10px;
+    margin-top: 15px;
+    width: 0vh;
+}
+.f1-origin {
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px -4px #0FC2C0;
+    padding: 14px;
+    width: 72vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    left: 0vh;
+    font-weight: 500;
+    color: $color_2;
+}
+.f1-article {
+    position: relative;
+}

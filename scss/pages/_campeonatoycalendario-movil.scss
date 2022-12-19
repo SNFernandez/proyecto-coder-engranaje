@@ -1,0 +1,56 @@
+.title {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0px;
+    color: $color_2;
+    position: relative;
+    width: 35vh;
+    text-align: center;
+}
+.campeonato {
+    width: 310px;
+    height: 460px;
+    border-radius: 8px;
+}
+.text-campeonato {
+    margin: 40px;
+    p {
+        text-align: center;
+        color: $color_2;
+        font-size: 16px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 80vw;
+        height: auto;
+        padding: 10px;
+    }
+}
+.calendario-container {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: Flex;
+    align-items: Center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    right: 0vh;
+}
+.calendario {
+    width: 310px;
+    height: 460px;
+    border-radius: 8px;
+}
+.text-calendar {
+    margin: 15px;
+    p {
+        text-align: center;
+        color: $color_2;
+        font-size: 16px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 80vw;
+        height: auto;
+        padding: 15px;
+    }
+}

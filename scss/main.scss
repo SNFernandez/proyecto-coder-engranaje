@@ -1,5 +1,4 @@
 @import "./utils/variables";
-
 @import "./base/base";
 
 h1 {
@@ -11,8 +10,8 @@ h1 {
 }
 
 @import "./components/carrusel";
-
 @import "./components/nav";
+@import "./components/footer";
 
 body {
 	background-color: $background-color_2;
@@ -22,75 +21,6 @@ body {
 }
 
 @import "./pages/index";
-
-footer {
-	background-color: $background-color_3;
-	padding: 12px;
-	width: 100vw;
-	position: relative;
-	bottom: 0;
-	z-index: 1;
-}
-hr {
-	width: 50%;
-	margin: auto;
-	margin-top: 20px;
-}
-h3 {
-	font-weight: 500;
-	color: $color_2;
-	font-size: 25px;
-	text-align: center;
-	margin-top: 35px;
-	margin-bottom: 10px;
-	&:hover {
-		text-shadow: 0px 0px 15px rgba(255, 255, 255, 0.75);
-		transition: .5s;
-	}
-}
-.footer-container {
-	display: flex;
-	justify-content: space-evenly;
-	div {
-		display: flex;
-		flex-direction: column;
-	}
-	i {
-		color: $color_2;
-		font-size: 25px;
-		padding: 8px;
-		margin: 4px;
-	}
-	&:hover {
-		>i {
-			background-color: $background-color_4;
-			transition: .8s;
-			border-radius: 50px;
-		}
-	}
-	a {
-		color: $color_2;
-		font-size: 20px;
-		font-weight: 300;
-	}
-}
-.text-copy {
-	color: $color_2;
-	font-weight: 300;
-	font-size: 15px;
-	display: flex;
-	justify-content: center;
-	margin-top: 20px;
-}
-.span-text {
-	height: 20vh;
-	width: 42vh;
-	color: $color_2;
-	font-weight: 300;
-	font-size: 20px;
-	text-align: justify;
-	margin-top: 5px;
-}
 @import "./pages/contacto";
 @import "./pages/campeonatoycalendario";
 @import "./components/menu-id";
@@ -102,127 +32,7 @@ h3 {
 	.nav__ul {
 		display: none;
 	}
-	.flex-container {
-		display: flex;
-		margin: 40px 8px;
-		position: relative;
-		height: 40em;
-		width: 300;
-	}
-	.form-input {
-		border: none;
-		border-radius: 5px;
-		padding: 18px;
-		color: $color_2;
-		margin: 15px 75px;
-		outline: none;
-		width: 75%;
-		text-align: left;
-		font-size: 12px;
-		background-color: $background-color_6;
-		border: solid;
-		border-color: $border-color_1;
-		border-top: none;
-		border-left: none;
-		border-right: none;
-	}
-	.text-email {
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		justify-content: center;
-		align-items: center;
-	}
-	.tel-text {
-		display: flex;
-		flex-direction: column;
-		position: relative;
-		justify-content: center;
-		align-items: center;
-	}
-	.form {
-		min-width: 350px;
-		flex: 1;
-		text-align: center;
-		width: 100em;
-		textarea {
-			min-height: 14vw;
-			max-width: 55vw;
-			resize: none;
-		}
-	}
-	footer {
-		background-color: $background-color_3;
-		padding: 10px;
-		width: 100vw;
-		position: relative;
-		bottom: 0;
-		z-index: 1;
-	}
-	h3 {
-		font-weight: 500;
-		color: $color_2;
-		font-size: 11px;
-		text-align: center;
-		margin-top: 15px;
-		margin-bottom: 12px;
-		padding: 0px;
-	}
-	.span-text {
-		height: 14vh;
-		width: 12vh;
-		color: $color_2;
-		font-weight: 300;
-		font-size: 10px;
-		text-align: justify;
-		margin-top: 5px;
-		margin-left: 4px;
-	}
-	.footer-container {
-		i {
-			color: $color_2;
-			font-size: 12px;
-			padding: 3px;
-			margin: 0px;
-		}
-		a {
-			color: $color_2;
-			font-size: 10px;
-			font-weight: 300;
-		}
-	}
-	.text-copy {
-		color: $color_2;
-		font-weight: 300;
-		font-size: 12px;
-		display: flex;
-		justify-content: center;
-		margin-top: 20px;
-	}
-	.form-submit {
-		border: solid;
-		border-color: $border-color_1;
-		border-top: none;
-		border-left: none;
-		border-right: none;
-		padding: 14px;
-		width: 20%;
-		font-size: 14px;
-		color: $color_2;
-		background-color: $background-color_7;
-		border-radius: 5px;
-	}
-	.title-contacto {
-		font-weight: 500;
-		color: $color_2;
-		font-size: 36px;
-		text-align: center;
-		width: 19.5rem;
-		position: relative;
-		left: 20px;
-	}
-
-@import "./components/nav-movil";
+	
 
 	h1 {
 		text-align: center;
@@ -231,203 +41,14 @@ h3 {
 		font-weight: 700;
 		color: $color_1;
 	}
-	.cars {
-		display: Flex;
-		flex-direction: column;
-		align-items: Center;
-		position: relative;
-	}
-
 @import "./components/slider-movil";
+@import "./components/menu-id-movil";
+@import "./components/nav-movil";
+@import "./components/footer-movil";
 
-	.f1-container {
-		display: Flex;
-		flex-direction: column;
-		align-items: Center;
-		justify-content: center;
-		position: relative;
-	}
-	.logo {
-		position: relative;
-		width: 240px;
-		height: 180px;
-		left: 0vh;
-	}
-	.logo-origin {
-		position: relative;
-		width: 240px;
-		height: 180px;
-		left: 0vh;
-	}
-	.f1-text {
-		border-radius: 25px;
-		box-shadow: 0px 0px 20px -4px #0FC2C0;
-		padding: 12px;
-		width: 72vw;
-		height: auto;
-		text-align: center;
-		position: relative;
-		font-size: 13px;
-		left: 0vh;
-		font-weight: 500;
-		color: $color_2;
-	}
-	.tweet-f1 {
-		position: relative;
-		left: 25%;
-		margin: 10px;
-		position: relative;
-		left: 0%;
-		margin: 10px;
-		margin-top: 15px;
-		width: 0vh;
-	}
-	.f1-origin {
-		border-radius: 25px;
-		box-shadow: 0px 0px 20px -4px #0FC2C0;
-		padding: 14px;
-		width: 72vw;
-		height: auto;
-		text-align: center;
-		position: relative;
-		font-size: 12px;
-		left: 0vh;
-		font-weight: 500;
-		color: $color_2;
-	}
-	.f1-article {
-		position: relative;
-	}
-	.title {
-		font-size: 28px;
-		font-weight: 700;
-		padding: 20px 0px;
-		color: $color_2;
-		position: relative;
-		width: 35vh;
-		text-align: center;
-	}
-	.campeonato {
-		width: 310px;
-		height: 460px;
-		border-radius: 8px;
-	}
-	.text-campeonato {
-		margin: 40px;
-		p {
-			text-align: center;
-			color: $color_2;
-			font-size: 16px;
-			box-shadow: 0px 0px 20px -4px #0FC2C0;
-			border-radius: 25px;
-			width: 80vw;
-			height: auto;
-			padding: 10px;
-		}
-	}
-	.calendario-container {
-		margin-left: 25%;
-		margin-right: 25%;
-		display: Flex;
-		align-items: Center;
-		position: relative;
-		justify-content: center;
-		flex-direction: column;
-		padding: 80px;
-		right: 0vh;
-	}
-	.calendario {
-		width: 310px;
-		height: 460px;
-		border-radius: 8px;
-	}
-	.text-calendar {
-		margin: 15px;
-		p {
-			text-align: center;
-			color: $color_2;
-			font-size: 16px;
-			box-shadow: 0px 0px 20px -4px #0FC2C0;
-			border-radius: 25px;
-			width: 80vw;
-			height: auto;
-			padding: 15px;
-		}
-	}
-	.menu-id {
-		display: inline-flex;
-		background-color: $background-color_9;
-		width: 100vw;
-		justify-content: center;
-		align-items: center;
-		padding: 2px 0px;
-		z-index: 1;
-		a {
-			color: $color_2;
-			font-size: 7px;
-			font-weight: 300;
-			margin: 2px;
-		}
-	}
-	.logo-equipo {
-		width: 100px;
-		height: 105px;
-		margin-top: 10px;
-		position: relative;
-		right: 4px;
-	}
-	.logo-redbull {
-		width: 300px;
-		height: 250px;
-	}
-	.logo-mclaren {
-		width: 300px;
-		height: 250px;
-	}
-	.img-piloto {
-		width: 70px;
-		height: 65px;
-		position: relative;
-		right: 15px;
-	}
-	.text-piloto {
-		border-radius: 15px;
-		box-shadow: 0px 0px 9px -3px #0FC2C0;
-		padding: 8px;
-		width: 26vw;
-		height: auto;
-		text-align: center;
-		position: relative;
-		font-size: 10px;
-		left: 11px;
-		font-weight: 500;
-		color: $color_2;
-	}
-	.auto {
-		height: 160px;
-		width: 260px;
-		margin: 10px;
-		border-radius: 15px;
-	}
-	.text-car {
-		border-radius: 25px;
-		box-shadow: 0px 0px 15px -4px #0FC2C0;
-		padding: 16px;
-		width: 65vw;
-		height: auto;
-		text-align: center;
-		position: relative;
-		font-size: 11px;
-		left: 5px;
-		font-weight: 500;
-		color: $color_2;
-		margin: 20px;
-	}
-	.car-title {
-		font-size: 42px;
-		font-weight: 700;
-		padding: 30px;
-		color: $color_2;
-		text-align: center;
-	}
+@import "./pages/index-movil";
+@import "./pages/campeonatoycalendario-movil";
+@import "./pages/scuderiasypilotos-movil";
+@import "./pages/coches-movil";
+@import "./pages/contacto-movil";
 }
