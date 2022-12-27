@@ -1,0 +1,30 @@
+.footer-container {
+    i {
+        color: $color_2;
+        font-size: 18px;
+        padding: 6px;
+        margin: 4px;
+    }
+    a {
+        color: $color_2;
+        font-size: 17px;
+        font-weight: 300;
+    }
+}
+.text-copy {
+    color: $color_2;
+    font-weight: 300;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.span-text {
+    height: 20vh;
+    width: 42vh;
+    color: $color_2;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 5px;
+}

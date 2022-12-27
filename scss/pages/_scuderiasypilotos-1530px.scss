@@ -1,0 +1,33 @@
+
+.logo-equipo {
+    width: 160px;
+    height: 180px;
+    margin-top: 10px;
+    position: relative;
+    right: 4px;
+}
+.logo-redbull {
+    width: 580px;
+    height: 420px;
+}
+.logo-mclaren {
+    width: 580px;
+    height: 420px;
+}
+.img-piloto {
+    width: 160px;
+    height: 170px;
+}
+.text-piloto {
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -3px #0FC2C0;
+    padding: 14px;
+    width: 28vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    left: 30px;
+    font-weight: 500;
+    color: $color_2;
+}

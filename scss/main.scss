@@ -27,8 +27,19 @@ body {
 @import "./pages/scuderiasypilotos";
 @import "./pages/coches";
 
+@media only screen and (max-width: 1530px){
+@import "./pages/index1530px";
+@import "./pages/campeonatoycalendario-1530px";
+@import "./pages/scuderiasypilotos-1530px";
+@import "./pages/coches1530px";
 
-@media only screen and (max-width: 490px) {
+@import "./components/menu-id1530px";
+@import "./components/nav1530px";
+@import "./components/footer1530px";
+}
+
+
+@media only screen and (max-width: 520px) {
 	.nav__ul {
 		display: none;
 	}

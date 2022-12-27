@@ -82,6 +82,7 @@ h1 {
     padding: 28px;
     text-align: left;
     width: 100vw;
+    z-index: 2;
 }
 
 .nav__ul {
@@ -160,8 +161,7 @@ body {
 
 .tweet-f1 {
     position: relative;
-    left: 65vh;
-    margin:100px 0px;
+    margin: 100px 0px;
 }
 
 .f1-origin {
@@ -364,7 +364,7 @@ h3:hover {
 }
 
 .title {
-    font-size: 72px;
+    font-size: 70px;
     font-weight: 700;
     padding: 0px;
     color: #FFFEF7;
@@ -425,7 +425,7 @@ h3:hover {
     justify-content: center;
     align-items: center;
     padding: 5px 0px;
-    z-index: 1;
+    z-index: 3;
 }
 
 .menu-id a {
@@ -457,8 +457,8 @@ h3:hover {
 }
 
 .auto {
-    height: 720px;
-    width: 1120px;
+    height: 650px;
+    width: 960px;
     margin: 25px;
     border-radius: 30px;
 }
@@ -467,8 +467,8 @@ h3:hover {
     border-radius: 25px;
     box-shadow: 0px 0px 30px -4px #0FC2C0;
     padding: 16px;
-    width: 36vw;
-    height: 20vh;
+    width: 33vw;
+    height: auto;
     text-align: center;
     position: relative;
     font-size: 23px;
@@ -544,7 +544,7 @@ h3:hover {
     box-shadow: 0px 0px 20px -3px #0FC2C0;
     padding: 14px;
     width: 30vw;
-    height: 14vh;
+    height: auto;
     text-align: center;
     position: relative;
     font-size: 18px;
@@ -553,7 +553,221 @@ h3:hover {
     color: #FFFEF7;
 }
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 1530px) {
+    .slider {
+        width: 980px;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
+    }
+    .nav__li a {
+        text-decoration: none;
+        color: #FFFEF7;
+        font-size: 18px;
+        font-weight: 300;
+        margin-right: 50px;
+        line-height: 1;
+    }
+    
+    .nav__li i {
+        color: #FFFEF7;
+        font-size: 20px;
+        margin-right: 4px;
+    }
+
+    .logo {
+        width: 360px;
+        height: 200px;
+    }
+    
+    .logo-origin {
+        width: 390px;
+        height: 320px;
+    }
+    
+    .f1-text {
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        padding: 16px;
+        width: 35vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        left: 50px;
+        font-weight: 500;
+        color: #FFFEF7;
+        justify-content: center;
+    }
+    
+    .tweet-f1 {
+        position: relative;
+        margin: 50px 0px;
+    }
+    
+    .f1-origin {
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        padding: 16px;
+        width: 35vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        left: 50px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+    
+    .footer-container i {
+        color: #FFFEF7;
+        font-size: 18px;
+        padding: 6px;
+        margin: 4px;
+    }
+    .footer-container a {
+        color: #FFFEF7;
+        font-size: 17px;
+        font-weight: 300;
+    }
+    
+    .text-copy {
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .span-text {
+        height: 20vh;
+        width: 42vh;
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 16px;
+        text-align: justify;
+        margin-top: 5px;
+    }
+
+    .title {
+        font-size: 36.5px;
+        font-weight: 700;
+        padding: 0px;
+        color: #FFFEF7;
+        margin: 20px 0px;
+    }
+
+    .campeonato {
+        width: 580px;
+        height: 700px;
+        border-radius: 8px;
+    }
+    
+    .text-campeonato p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 14px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 35vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .calendario {
+        width: 580px;
+        height: 700px;
+        border-radius: 8px;
+    }
+
+    .text-calendar p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 14px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 35vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu-id a {
+        color: #FFFEF7;
+        font-size: 18px;
+        font-weight: 300;
+        margin-right: 25px;
+    }
+
+    .logo-equipo {
+        width: 160px;
+        height: 180px;
+        margin-top: 10px;
+        position: relative;
+        right: 4px;
+    }
+    
+    .logo-redbull {
+        width: 580px;
+        height: 420px;
+    }
+    
+    .logo-mclaren {
+        width: 580px;
+        height: 420px;
+    }
+    
+    .img-piloto {
+        width: 160px;
+        height: 170px;
+    }
+    
+    .text-piloto {
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px -3px #0FC2C0;
+        padding: 14px;
+        width: 28vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 15px;
+        left: 30px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+
+    .auto {
+        height: 400px;
+        width: 580px;
+        margin: 25px;
+        border-radius: 30px;
+    }
+    
+    .text-car {
+        border-radius: 25px;
+        box-shadow: 0px 0px 30px -4px #0FC2C0;
+        padding: 16px;
+        width: 32vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 16px;
+        left: 5px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+    
+.car-title {
+    font-size: 54px;
+    font-weight: 700;
+    padding: 30px;
+    color: #FFFEF7;
+    text-align: left;
+}
+}
+
+
+@media only screen and (max-width: 520px) {
     .nav__ul {
         display: none;
     }
@@ -906,15 +1120,15 @@ h3:hover {
         width: 100vw;
         justify-content: center;
         align-items: center;
-        padding: 2px 0px;
+        padding: 8px 0px;
         z-index: 1;
     }
 
     .menu-id a {
         color: #FFFEF7;
-        font-size: 7px;
+        font-size: 7.5px;
         font-weight: 300;
-        margin: 2px;
+        margin: 1px;
     }
 
     .logo-equipo {
@@ -939,7 +1153,7 @@ h3:hover {
         width: 70px;
         height: 65px;
         position: relative;
-        right: 15px;
+        right: 16px;
     }
 
     .text-piloto {
