@@ -1,0 +1,15 @@
+.nav__li {
+    a {
+        text-decoration: none;
+        color: $color_2;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 20px;
+        line-height: 1;
+    }
+    i {
+        color: $color_2;
+        font-size: 15px;
+        margin-right: 4px;
+    }
+}

@@ -38,6 +38,18 @@ body {
 @import "./components/footer1530px";
 }
 
+@media only screen and (max-width: 999px) {
+@import "./pages/index999px";
+@import "./pages/campeonatoycalendario999px";
+@import "./pages/scuderiasypilotos999px";
+@import "./pages/coches999px";
+@import "./pages/contacto999px";
+
+
+@import "./components/nav999px";
+@import "./components/footer999px";
+@import "./components/menu-id999px";
+}
 
 @media only screen and (max-width: 520px) {
 	.nav__ul {

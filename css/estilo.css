@@ -560,6 +560,7 @@ h3:hover {
         margin: 50px auto 0;
         overflow: hidden;
     }
+
     .nav__li a {
         text-decoration: none;
         color: #FFFEF7;
@@ -568,7 +569,7 @@ h3:hover {
         margin-right: 50px;
         line-height: 1;
     }
-    
+
     .nav__li i {
         color: #FFFEF7;
         font-size: 20px;
@@ -579,12 +580,12 @@ h3:hover {
         width: 360px;
         height: 200px;
     }
-    
+
     .logo-origin {
         width: 390px;
         height: 320px;
     }
-    
+
     .f1-text {
         border-radius: 25px;
         box-shadow: 0px 0px 20px -4px #0FC2C0;
@@ -599,12 +600,12 @@ h3:hover {
         color: #FFFEF7;
         justify-content: center;
     }
-    
+
     .tweet-f1 {
         position: relative;
         margin: 50px 0px;
     }
-    
+
     .f1-origin {
         border-radius: 25px;
         box-shadow: 0px 0px 20px -4px #0FC2C0;
@@ -618,19 +619,20 @@ h3:hover {
         font-weight: 500;
         color: #FFFEF7;
     }
-    
+
     .footer-container i {
         color: #FFFEF7;
         font-size: 18px;
         padding: 6px;
         margin: 4px;
     }
+
     .footer-container a {
         color: #FFFEF7;
         font-size: 17px;
         font-weight: 300;
     }
-    
+
     .text-copy {
         color: #FFFEF7;
         font-weight: 300;
@@ -663,7 +665,7 @@ h3:hover {
         height: 700px;
         border-radius: 8px;
     }
-    
+
     .text-campeonato p {
         text-align: center;
         color: #FFFEF7;
@@ -706,22 +708,22 @@ h3:hover {
         position: relative;
         right: 4px;
     }
-    
+
     .logo-redbull {
         width: 580px;
         height: 420px;
     }
-    
+
     .logo-mclaren {
         width: 580px;
         height: 420px;
     }
-    
+
     .img-piloto {
         width: 160px;
         height: 170px;
     }
-    
+
     .text-piloto {
         border-radius: 15px;
         box-shadow: 0px 0px 20px -3px #0FC2C0;
@@ -742,7 +744,7 @@ h3:hover {
         margin: 25px;
         border-radius: 30px;
     }
-    
+
     .text-car {
         border-radius: 25px;
         box-shadow: 0px 0px 30px -4px #0FC2C0;
@@ -756,16 +758,303 @@ h3:hover {
         font-weight: 500;
         color: #FFFEF7;
     }
-    
-.car-title {
-    font-size: 54px;
-    font-weight: 700;
-    padding: 30px;
-    color: #FFFEF7;
-    text-align: left;
-}
+
+    .car-title {
+        font-size: 54px;
+        font-weight: 700;
+        padding: 30px;
+        color: #FFFEF7;
+        text-align: left;
+    }
 }
 
+@media only screen and (max-width: 999px) {
+    .slider {
+        width: 680px;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
+    }
+
+    .nav__li a {
+        text-decoration: none;
+        color: #FFFEF7;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 20px;
+        line-height: 1;
+    }
+
+    .nav__li i {
+        color: #FFFEF7;
+        font-size: 15px;
+        margin-right: 4px;
+    }
+
+    .logo {
+        width: 300px;
+        height: 180px;
+    }
+
+    .logo-origin {
+        width: 330px;
+        height: 300px;
+    }
+
+    .f1-text {
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        padding: 12px;
+        width: 35vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 13px;
+        left: 50px;
+        font-weight: 500;
+        color: #FFFEF7;
+        justify-content: center;
+    }
+
+    .tweet-f1 {
+        position: relative;
+        margin: 50px 0px;
+    }
+
+    .f1-origin {
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        padding: 12px;
+        width: 35vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 13px;
+        left: 50px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+
+    .footer-container i {
+        color: #FFFEF7;
+        font-size: 16px;
+        padding: 6px;
+        margin: 4px;
+    }
+
+    .footer-container a {
+        color: #FFFEF7;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    .span-text {
+        height: 20vh;
+        width: 22vh;
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 14px;
+        text-align: justify;
+        margin-top: 5px;
+    }
+
+    h3 {
+        font-weight: 500;
+        color: #FFFEF7;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .text-copy {
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .title {
+        font-size: 31px;
+        font-weight: 700;
+        padding: 0px;
+        color: #FFFEF7;
+        margin: 30px 0px;
+    }
+
+    .campeonato {
+        width: 520px;
+        height: 680px;
+        border-radius: 8px;
+    }
+
+    .text-campeonato p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 14px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 64vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .calendario {
+        width: 520px;
+        height: 680px;
+        border-radius: 8px;
+    }
+
+    .text-calendar p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 14px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 64vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu-id a {
+        color: #FFFEF7;
+        font-size: 14px;
+        font-weight: 300;
+        margin-right: 15px;
+    }
+
+    .logo-equipo {
+        width: 130px;
+        height: 150px;
+        margin-top: 10px;
+        position: relative;
+        right: 4px;
+    }
+
+    .logo-redbull {
+        width: 480px;
+        height: 320px;
+    }
+
+    .logo-mclaren {
+        width: 480px;
+        height: 320px;
+    }
+
+    .img-piloto {
+        width: 119px;
+        height: 135px;
+    }
+
+    .text-piloto {
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px -3px #0FC2C0;
+        padding: 14px;
+        width: 26vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+        left: 30px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+
+    .auto {
+        height: 250px;
+        width: 380px;
+        margin: 18px;
+        border-radius: 30px;
+    }
+
+    .text-car {
+        border-radius: 25px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        padding: 16px;
+        width: 38vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+        left: 5px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+
+    .car-title {
+        font-size: 50px;
+        font-weight: 700;
+        padding: 30px;
+        color: #FFFEF7;
+        text-align: left;
+    }
+
+    .flex-container {
+        display: flex;
+        margin: 40px 8px;
+        position: relative;
+        height: 45em;
+        width: 680px;
+    }
+
+    .form-input {
+        border: none;
+        border-radius: 5px;
+        padding: 22px;
+        color: #FFFEF7;
+        margin: 35px 50px;
+        outline: none;
+        width: 85%;
+        text-align: left;
+        font-size: 14px;
+        background-color: #003821;
+        border: solid;
+        border-color: #01FEBF;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .text-email {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tel-text {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-contacto {
+        font-weight: 500;
+        color: #FFFEF7;
+        font-size: 56px;
+        position: relative;
+        bottom: 1.02em;
+        text-align: center;
+    }
+    .form {
+        min-width: 350px;
+        flex: 1;
+        text-align: center;
+        width: 100em;
+    }
+
+    .form textarea {
+        min-height: 14vw;
+        max-width: 65vw;
+        resize: none;
+    }
+
+}
 
 @media only screen and (max-width: 520px) {
     .nav__ul {

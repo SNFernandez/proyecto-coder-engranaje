@@ -1,0 +1,57 @@
+.flex-container {
+    display: flex;
+    margin: 40px 8px;
+    position: relative;
+    height: 45em;
+    width: 680px;
+}
+.form-input {
+    border: none;
+    border-radius: 5px;
+    padding: 22px;
+    color: $color_2;
+    margin: 35px 50px;
+    outline: none;
+    width: 85%;
+    text-align: left;
+    font-size: 14px;
+    background-color: $background-color_6;
+    border: solid;
+    border-color: $border-color_1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.text-email {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.tel-text {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.title-contacto {
+    font-weight: 500;
+    color: $color_2;
+    font-size: 56px;
+    position: relative;
+    bottom: 1.02em;
+    text-align: center;
+}
+.form {
+    min-width: 350px;
+    flex: 1;
+    text-align: center;
+    width: 100em;
+    textarea {
+        min-height: 14vw;
+        max-width: 65vw;
+        resize: none;
+    }
+}
