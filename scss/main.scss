@@ -50,7 +50,19 @@ body {
 @import "./components/footer999px";
 @import "./components/menu-id999px";
 }
+@media only screen and (max-width: 699px){
+@import "./pages/index699px";
+@import "./pages/campeonatoycalendario699px";
+@import "./pages/scuderiasypilotos699px";
+@import "./pages/coches699px";
+@import "./pages/contacto699px";
 
+
+@import "./components/nav699px";
+@import "./components/footer699px";
+@import "./components/menu-id699px";
+
+}
 @media only screen and (max-width: 520px) {
 	.nav__ul {
 		display: none;

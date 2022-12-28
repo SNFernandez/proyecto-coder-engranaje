@@ -347,8 +347,6 @@ h3:hover {
 }
 
 .calendario-container {
-    margin-left: 25vh;
-    margin-right: 25vh;
     display: Flex;
     align-items: Center;
     position: relative;
@@ -1052,6 +1050,291 @@ h3:hover {
         min-height: 14vw;
         max-width: 65vw;
         resize: none;
+    }
+
+}
+
+@media only screen and (max-width: 699px){
+    .slider {
+        width: 518px;
+        height: auto;
+        margin: 50px auto 0;
+        overflow: hidden;
+    }
+    .nav__li a {
+        text-decoration: none;
+        color: #FFFEF7;
+        font-size: 11px;
+        font-weight: 300;
+        margin-right: 6.9px;
+        line-height: 1;
+    }
+
+    .nav__li i {
+        color: #FFFEF7;
+        font-size: 12px;
+        margin-right: 2px;
+    }
+
+    .logo {
+        width: 260px;
+        height: 160px;
+    }
+
+    .logo-origin {
+        width: 250px;
+        height: 230px;
+    }
+
+    .f1-text {
+        border-radius: 25px;
+        box-shadow: 0px 0px 15px -4px #0FC2C0;
+        padding: 10px;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 12px;
+        left: 15px;
+        font-weight: 500;
+        color: #FFFEF7;
+        justify-content: center;
+    }
+
+    .tweet-f1 {
+        position: relative;
+        margin: 50px 0px;
+    }
+
+    .f1-origin {
+        border-radius: 25px;
+        box-shadow: 0px 0px 15px -4px #0FC2C0;
+        padding: 10px;
+        width: 40vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 11px;
+        left: 15px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+    .footer-container i {
+        color: #FFFEF7;
+        font-size: 14px;
+        padding: 4px;
+        margin: 5px;
+    }
+
+    .footer-container a {
+        color: #FFFEF7;
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .span-text {
+        height: 20vh;
+        width: 22vh;
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 12px;
+        text-align: justify;
+        margin-top: 5px;
+    }
+
+    h3 {
+        font-weight: 500;
+        color: #FFFEF7;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 10px;
+    }
+
+    .text-copy {
+        color: #FFFEF7;
+        font-weight: 300;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .title {
+        font-size: 22.5px;
+        font-weight: 700;
+        padding: 0px;
+        color: #FFFEF7;
+        margin: 30px 0px;
+    }
+
+    .campeonato {
+        width: 455px;
+        height: 620px;
+        border-radius: 8px;
+    }
+
+    .text-campeonato p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 12px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 75vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .calendario {
+        width: 455px;
+        height: 620px;
+        border-radius: 8px;
+    }
+
+    .text-calendar p {
+        text-align: center;
+        color: #FFFEF7;
+        font-size: 12px;
+        box-shadow: 0px 0px 20px -4px #0FC2C0;
+        border-radius: 25px;
+        width: 75vw;
+        height: auto;
+        padding: 10px;
+    }
+
+    .menu-id a {
+        color: #FFFEF7;
+        font-size: 12px;
+        font-weight: 300;
+        margin-right: 5.2px;
+    }
+
+    .logo-equipo {
+        width: 130px;
+        height: 135px;
+        margin-top: 10px;
+        position: relative;
+        right: 4px;
+    }
+
+    .logo-redbull {
+        width: 420px;
+        height: 300px;
+    }
+
+    .logo-mclaren {
+        width: 420px;
+        height: 300px;
+    }
+
+    .img-piloto {
+        width: 88px;
+        height: 100px;
+        left: -2px;
+        position: relative;
+    }
+
+    .text-piloto {
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px -3px #0FC2C0;
+        padding: 14px;
+        width: 25vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 12px;
+        left: 30px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+    .auto {
+        height: 160px;
+        width: 300px;
+        margin: 18px;
+        border-radius: 30px;
+    }
+
+    .text-car {
+        border-radius: 25px;
+        box-shadow: 0px 0px 17px -4px #0FC2C0;
+        padding: 12px;
+        width: 32vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        font-size: 14px;
+        left: 4px;
+        font-weight: 500;
+        color: #FFFEF7;
+    }
+
+    .car-title {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 30px;
+        color: #FFFEF7;
+        text-align: left;
+    }
+    .flex-container {
+        display: flex;
+        margin: 40px 10px;
+        position: relative;
+        height: 42em;
+        width: 95vw;
+    }
+
+    .form-input {
+        border: none;
+        border-radius: 5px;
+        padding: 18px;
+        color: #FFFEF7;
+        margin: 15px 75px;
+        outline: none;
+        width: 80%;
+        text-align: left;
+        font-size: 12px;
+        background-color: #003821;
+        border: solid;
+        border-color: #01FEBF;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .text-email {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tel-text {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        min-width: 350px;
+        flex: 1;
+        text-align: center;
+        width: 10em;
+    }
+
+    .form textarea {
+        min-height: 14vw;
+        max-width: 55vw;
+        resize: none;
+    }
+    .title-contacto {
+        font-weight: 500;
+        color: #FFFEF7;
+        font-size: 45px;
+        position: relative;
+        bottom: 1.02em;
+        text-align: center;
     }
 
 }

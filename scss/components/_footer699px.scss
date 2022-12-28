@@ -1,0 +1,38 @@
+footer-container {
+    i {
+        color: $color_2;
+        font-size: 14px;
+        padding: 4px;
+        margin: 5px;
+    }
+    a {
+        color: $color_2;
+        font-size: 13px;
+        font-weight: 300;
+    }
+}
+.span-text {
+    height: 20vh;
+    width: 22vh;
+    color: $color_2;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: justify;
+    margin-top: 5px;
+}
+h3 {
+    font-weight: 500;
+    color: $color_2;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+.text-copy {
+    color: $color_2;
+    font-weight: 300;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
